@@ -1,7 +1,7 @@
 {
   "name": "draft-js",
   "description": "A React framework for building text editors.",
-  "version": "0.10.5",
+  "version": "0.10.5-HUBRICK-1",
   "keywords": [
     "draftjs",
     "editor",
@@ -120,5 +120,9 @@
       "<rootDir>/node_modules/react/",
       "<rootDir>/node_modules/react-dom/"
     ]
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://nexus.hubrick.net/repository/hubrick-npm-private/"
   }
 }
